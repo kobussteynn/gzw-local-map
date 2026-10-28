@@ -3,13 +3,18 @@ const { spawn } = require('node:child_process');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const PORT = 4174;
+const PORT = process.argv.includes('--smoke-test') ? 4175 : 4174;
 const origin = `http://localhost:${PORT}`;
 let backend, window, quitting = false, backendReady = false;
 const smokeTest = process.argv.includes('--smoke-test');
 const smokeOutput = process.env.GZW_SMOKE_OUTPUT;
 const profile = process.env.GZW_DESKTOP_TEST_PROFILE;
-if (profile) app.setPath('userData', profile);
+if (profile) {
+  app.setPath('userData', profile);
+  const sessionPath=path.join(profile, 'session');
+  fs.mkdirSync(sessionPath, { recursive: true });
+  app.setPath('sessionData', sessionPath);
+}
 if (!app.requestSingleInstanceLock()) app.quit();
 else {
   app.on('second-instance', () => { if (window) { if (window.isMinimized()) window.restore(); window.show(); window.focus(); } });
@@ -30,7 +35,7 @@ async function fail(error) {
       page = await window.webContents.executeJavaScript('document.body.innerText').catch(() => '');
       if (smokeOutput) await window.webContents.capturePage().then(img => fs.writeFileSync(smokeOutput + '.png', img.toPNG())).catch(() => {});
     }
-    if (smokeOutput) fs.writeFileSync(smokeOutput, JSON.stringify({ ok: false, error: String(error), page }));
+    if (smokeOutput) fs.writeFileSync(smokeOutput, JSON.stringify({ ok: false, error: String(error), url: window?.webContents.getURL(), page }));
     app.exitCode = 1;
   } else dialog.showErrorBox('GZW Tac Map could not start', `${error.message || error}\n\nClose any other GZW desktop instance and try again. Logs are in ${app.getPath('userData')}.`);
   app.quit();
@@ -39,6 +44,7 @@ async function start() {
   const resourceRoot = app.isPackaged ? path.join(process.resourcesPath, 'map') : path.join(__dirname, '..');
   fs.mkdirSync(app.getPath('userData'), { recursive: true });
   const log = fs.createWriteStream(path.join(app.getPath('userData'), 'desktop-server.log'), { flags: 'a' });
+  log.write(`UI resources: ${resourceRoot}\n`);
   const executable = app.isPackaged ? path.join(process.resourcesPath, 'backend', 'gzw-map-server.exe') : (process.env.GZW_PYTHON || 'python');
   const args = app.isPackaged ? [] : [path.join(resourceRoot, 'server.py')];
   backend = spawn(executable, [...args, '--port', String(PORT)], {
@@ -68,7 +74,7 @@ async function start() {
     title: 'GZW Tac Map', width: 1500, height: 950, minWidth: 900, minHeight: 650,
     backgroundColor: '#090909', show: false,
     icon: path.join(resourceRoot, 'artifacts', 'desktop-icon.ico'),
-    webPreferences: { nodeIntegration: false, contextIsolation: true, sandbox: true, webSecurity: true, spellcheck: false },
+    webPreferences: { nodeIntegration: false, contextIsolation: true, sandbox: true, webSecurity: true, spellcheck: false, backgroundThrottling: !smokeTest },
   });
   window.webContents.on('did-fail-load', (_event, code, description, url) => log.write(`Load failed ${code}: ${description} ${url}\n`));
   window.webContents.setWindowOpenHandler(({ url }) => {
@@ -103,13 +109,15 @@ async function start() {
     const result = await window.webContents.executeJavaScript(`(async () => {
       // A fresh profile shows the upstream map's non-binding gameplay notice.
       // Acknowledge it only in this explicit maintainer smoke test.
-      const notice = [...document.querySelectorAll('button')].find(button => /I understand.*Continue/i.test(button.textContent));
-      if (notice) notice.click();
       await new Promise((resolve, reject) => {
-        if (document.querySelector('#runs-toolbar')) return resolve();
-        const timeout = setTimeout(() => { observer.disconnect(); reject(new Error('Map controls did not load')); }, 45000);
-        const observer = new MutationObserver(() => { if (document.querySelector('#runs-toolbar')) { clearTimeout(timeout); observer.disconnect(); resolve(); } });
-        observer.observe(document.body, { childList: true, subtree: true });
+        const check = () => {
+          const notice = [...document.querySelectorAll('button')].find(button => /I understand.*Continue/i.test(button.textContent) && button.getClientRects().length);
+          if (notice) notice.click();
+          if (document.querySelector('#runs-toolbar')) { clearTimeout(timeout); clearInterval(poll); resolve(); }
+        };
+        const timeout = setTimeout(() => { clearInterval(poll); reject(new Error('Map controls did not load')); }, 45000);
+        const poll = setInterval(check, 100);
+        check();
       });
       const status = await fetch('/__mirror/status').then(r => r.json());
       const references = await fetch('/__mirror/planner-data?map=lamang').then(r => r.json());
@@ -122,9 +130,10 @@ async function start() {
     await new Promise(resolve => { window.webContents.once('did-finish-load', resolve); window.webContents.reload(); });
     await window.webContents.executeJavaScript(waitForMap);
     const persisted = await window.webContents.executeJavaScript(`localStorage.getItem('gzw.desktop.smoke') === 'persisted'`);
+    const missions = process.argv.includes('--mission-smoke-test') ? await require('./mission-smoke.cjs')(window) : null;
     if (smokeOutput) {
       await window.webContents.capturePage().then(img => fs.writeFileSync(smokeOutput + '.png', img.toPNG()));
-      fs.writeFileSync(smokeOutput, JSON.stringify({ ok: result.script && result.nodeDisabled && persisted && result.markers > 1000, persisted, ...result }, null, 2));
+      fs.writeFileSync(smokeOutput, JSON.stringify({ ok: result.script && result.nodeDisabled && persisted && result.markers > 1000, persisted, ...result, missions }, null, 2));
     }
     app.quit();
   }

@@ -1,6 +1,7 @@
 import {uid, coordinate, distance, newRun, validateRun, loadStore, nearbyMarkers, requiredKeys, matchDoorKey} from './planner-core.mjs';
 import './notes.js';
 import './location-filter.js';
+import './task-selection.js';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const esc = text => String(text ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

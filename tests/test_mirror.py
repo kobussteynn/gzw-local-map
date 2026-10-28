@@ -7,19 +7,22 @@ import server
 
 
 class MirrorTests(unittest.TestCase):
+    def test_map_service_rejects_duplicate_port_binding(self):
+        with server.LocalMapServer(('127.0.0.1', 0), server.Handler) as first:
+            with self.assertRaises(OSError):
+                server.LocalMapServer(first.server_address, server.Handler)
+
     def test_runs_map_bridge_has_supported_anchors(self):
         source=(server.SNAPSHOT/'_app/immutable/chunks/DaQSydHy.js').read_text(encoding='utf-8')
         patched=server.patch_map_bridge(source)
         self.assertIn('gzw:map-ready',patched)
         self.assertIn('gzw:draw-ready',patched)
         self.assertIn('runNote',patched)
-        self.assertIn('s.set("taskData",o.taskData||null)',patched)
         with self.assertRaises(RuntimeError): server.patch_map_bridge('unrecognized upstream version')
 
     def test_planner_references_load_without_network(self):
         payload=server.planner_payload('lamang',offline=True)
         self.assertGreater(len(payload['markers']['17']['markersArray']),0)
-        self.assertTrue(any(group['markersArray'] for group in payload['taskMarkers'].values()))
         self.assertTrue(any(k['short_name']=='PLA H03' for k in payload['keys']))
         with self.assertRaises(ValueError): server.planner_payload('../private')
 

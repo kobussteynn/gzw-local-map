@@ -209,3 +209,6 @@
 .location-filter-empty{padding:15px;font-size:13px}
 #location-filter-panel>footer{padding:10px 15px;border-top:1px solid var(--run-border);font-size:11px;color:#909090}
 @media(max-width:720px){#location-filter-panel{left:0;bottom:54px;width:100vw;z-index:1000}#location-filter-nav{width:54px;height:54px;min-height:54px;border:0}#location-filter-nav::after{display:none}}
+#task-selection-help { margin: 12px 0 18px; padding: 12px; border: 1px solid #383838; font-size: 12px; line-height: 1.5; }
+#task-selection-help p { margin: 0 0 10px; }
+#task-selection-help p:empty { display: none; }

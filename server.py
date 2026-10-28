@@ -14,6 +14,7 @@ import mimetypes
 import os
 import re
 import sqlite3
+import socket
 import threading
 import time
 import urllib.error
@@ -109,11 +110,9 @@ def patch_map_bridge(text):
     """Expose narrow map/drawing hooks without changing the captured upstream files."""
     map_anchor = 'd.map=I(p)};re(()=>{B(m,Promise.all('
     draw_anchor = '}),n.addLayer(s),R(()=>{if(o&&=(n.removeInteraction(o),null),r.freeHandMode.enabled)'
-    task_anchor = 'if(!s)continue;let c=i&&s.get(`id`)==i;'
-    if text.count(map_anchor) != 1 or text.count(draw_anchor) != 1 or text.count(task_anchor) != 1:
+    if text.count(map_anchor) != 1 or text.count(draw_anchor) != 1:
         raise RuntimeError('The upstream map client changed. Update the Runs bridge anchors before serving this version.')
     text = text.replace(map_anchor, 'd.map=I(p);window.__gzwMap={map:I(p),state:d};window.dispatchEvent(new CustomEvent("gzw:map-ready",{detail:window.__gzwMap}))};re(()=>{B(m,Promise.all(')
-    text = text.replace(task_anchor, 'if(!s)continue;s.set("taskData",o.taskData||null);s.set("task_id",o.task_id||null);let c=i&&s.get(`id`)==i;')
     draw_code = '''window.__gzwDrawing={source:c,capture(){return c.getFeatures().map(f=>{let id=f.get("runId");if(!id){id=crypto.randomUUID();f.set("runId",id)}return{id,coordinates:f.getGeometry().getCoordinates(),color:f.get("color")||"#ffffff",dashed:!!f.get("dashed"),note:f.get("runNote")||""}})},restore(items){c.clear();l=[];for(const item of items){const f=new J(new Z(item.coordinates));f.set("runId",item.id);f.set("runNote",item.note||"");f.set("color",item.color||"#ffffff");f.set("dashed",!!item.dashed);c.addFeature(f);l.push(f)}}};window.dispatchEvent(new CustomEvent("gzw:draw-ready",{detail:window.__gzwDrawing}));'''
     text = text.replace(draw_anchor, '}),n.addLayer(s);'+draw_code+'R(()=>{if(o&&=(n.removeInteraction(o),null),r.freeHandMode.enabled)')
     text = text.replace('condition:d?()=>!0:Xe,freehandCondition:e=>d||Xe(e)', 'condition:e=>window.__gzwPlannerDraw||d||Xe(e),freehandCondition:e=>window.__gzwPlannerDraw||d||Xe(e)')
@@ -145,7 +144,7 @@ def planner_payload(map_name, offline=False):
                 if isinstance(decoded, dict) and 'keysData' in decoded: keys = decoded['keysData']
     except Exception:
         keys = json.loads((ROOT/'data'/'lamang-keys.json').read_text(encoding='utf-8'))['keysData']
-    return {'markers': references['markers'], 'taskMarkers': references.get('taskMarkers', {}), 'keys': keys}
+    return {'markers': references['markers'], 'keys': keys}
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -203,15 +202,27 @@ class Handler(BaseHTTPRequestHandler):
         if args and str(args[1]) != '200': super().log_message(fmt,*args)
 
 
+class LocalMapServer(ThreadingHTTPServer):
+    # Windows SO_REUSEADDR permits another process to bind the same endpoint.
+    # Exclusive binding prevents an older app from serving a newer app's UI.
+    allow_reuse_address = os.name != 'nt'
+
+    def server_bind(self):
+        if os.name == 'nt':
+            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)
+        super().server_bind()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--port', type=int, default=4173)
     parser.add_argument('--offline', action='store_true')
     args = parser.parse_args()
-    server = ThreadingHTTPServer(('127.0.0.1', args.port), Handler)
+    server = LocalMapServer(('127.0.0.1', args.port), Handler)
     server.daemon_threads = True
     server.offline = args.offline
     print('GZW_SERVER_READY ' + json.dumps({'port': server.server_port}), flush=True)
+    print(f'Map UI directory: {ROOT}', flush=True)
     print(f'Personal GZW Tac Map: http://localhost:{args.port}{DEFAULT_VIEW}', flush=True)
     print('Read-only upstream access; downloaded resources are cached locally. Ctrl+C stops the server.', flush=True)
     try: server.serve_forever()

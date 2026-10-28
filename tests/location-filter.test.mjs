@@ -85,22 +85,15 @@ test('LZ and loot category selections combine with individual places using publi
   controller.set([]);assert.equal(layer.source.getFeatures().length,5);
 });
 
-test('task names select their own objectives even when other tasks share the same marker name',()=>{
-  const markers=[
-    {name:'Body',taskData:{name:'Left Behind',vendor:'Handshake'}},
-    {name:'Body',taskData:{name:'Last Farewell',vendor:'Gunny'}},
-    {name:'Body'},
-    {name:'Landing Zone - Golf 2',icon:'landingZone'},
-  ];
-  const catalog=makeCatalog(markers),keywords=name=>catalog.find(item=>item.name===name)?.keywords||'';
-  assert.equal(catalog.length,4);
-  assert.ok(nameMatches('Task: Left Behind','quests',keywords('Task: Left Behind')));
-  assert.ok(nameMatches('Task: Left Behind','handshake',keywords('Task: Left Behind')));
-  const features=markers.map(marker=>({get:key=>marker[key]}));
-  const layer=new Layer(features),controller=new LocationFilter(()=>{},()=>true,keywords);controller.track(layer);
-  controller.set(['Task: Left Behind','Landing Zone - Golf 2']);
-  assert.deepEqual(new Set(layer.source.getFeatures()),new Set([features[0],features[3]]));
-  controller.set(['All tasks']);assert.deepEqual(new Set(layer.source.getFeatures()),new Set(features.slice(0,2)));
-  controller.set([], 'last farewell');assert.deepEqual(layer.source.getFeatures(),[features[1]]);
-  controller.set([]);assert.equal(layer.source.getFeatures().length,4);assert.equal(layer.visible,false);
+test('location filters never override missions selected in the Tasks section',()=>{
+  const objective=feature('Document'),mission=new Layer([objective],true);
+  mission.get=key=>key==='id'?'task-271':undefined;
+  const loot=new Layer([feature('Building Material Crate'),feature('Campsite')],false);
+  const controller=new LocationFilter();controller.track(mission);controller.track(loot);
+  assert.equal(controller.records.has(mission),false);
+  controller.set(['Building Material Crate']);
+  assert.equal(mission.visible,true);assert.deepEqual(mission.source.getFeatures(),[objective]);
+  mission.setVisible(false);controller.set([], 'camp');assert.equal(mission.visible,false);
+  mission.setVisible(true);controller.set([]);assert.equal(mission.visible,true);
+  controller.dispose();assert.equal(mission.visible,true);
 });
