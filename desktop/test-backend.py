@@ -30,7 +30,9 @@ with tempfile.TemporaryDirectory(prefix='gzw-backend-test-') as cache:
         assert b'local/runs.js' in fetch('/maps/lamang')
         assert b'All landing zones' in fetch('/__mirror/local/location-filter.js')
         assert json.loads(fetch('/__mirror/status'))['offline'] is True
-        assert json.loads(fetch('/__mirror/planner-data?map=lamang'))['markers']
+        references = json.loads(fetch('/__mirror/planner-data?map=lamang'))
+        assert references['markers'] and references['taskMarkers']
+        assert b's.set("taskData",o.taskData||null)' in fetch('/_app/immutable/chunks/DaQSydHy.js')
         assert json.loads(fetch('/__mirror/planner-data?map=ybl-1'))['markers']
         print('Bundled service passed: cold cache, offline HTML/assets, both maps and key references.')
     finally:

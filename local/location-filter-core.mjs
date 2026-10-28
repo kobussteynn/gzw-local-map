@@ -1,6 +1,6 @@
 export const locationKey = value => String(value || '').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim().replace(/\s+/g,' ');
 export function searchWords(value) {
-  return locationKey(value).replace(/\blzs?\b/g,'landing zone').replace(/landing zones\b/g,'landing zone').replace(/camping\s+sites?/g,'camp').replace(/campsites?\b/g,'camp').replace(/camps\b/g,'camp')
+  return locationKey(value).replace(/\b(tasks?|quests?|missions?)\b/g,'task').replace(/objectives\b/g,'objective').replace(/\blzs?\b/g,'landing zone').replace(/landing zones\b/g,'landing zone').replace(/camping\s+sites?/g,'camp').replace(/campsites?\b/g,'camp').replace(/camps\b/g,'camp')
     .replace(/checkpoints\b/g,'checkpoint').replace(/fields\b/g,'field').replace(/\blocations?\b/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
 }
 export function nameMatches(name, query, keywords='') {
@@ -11,16 +11,23 @@ export function nameMatches(name, query, keywords='') {
   return terms.every(term=>candidate.includes(term));
 }
 export function markerKeywords(marker) {
+  if(marker.taskData?.name)return `task mission objective ${marker.taskData.vendor||''} ${marker.name||''}`;
   const icon=String(marker.icon||'');
   if(/^landingZone/.test(icon)||/^Landing Zone\b/i.test(marker.name||''))return 'landing zone';
   if([4,37].includes(Number(marker.nav_item)))return '';
   if(/^(woodenMilitary|safe|cashRegister|key|keycard|stone|ammo|unBox|unGearCrate|militaryGearCrate|foodStorage|firstAidCabinet|medicalBag|cooler|metalBox|unCrate|militaryBox|militaryCrate|militaryMedicalCrate|civilianChest|duffleBag-\d|briefcase|buriedCache\w*|purse\w*|pmcBox|jewelryBox|plasticContainer|unFirearmsBox|unFirearmsCrate|jacket|carTrunk|toolBox|atm|item|building-material|disassembly-material)$/.test(icon))return 'loot '+(/material/.test(icon)?'materials supplies':'');
   return '';
 }
+export function markerLabel(marker) {
+  return marker.taskData?.name ? `Task: ${marker.taskData.name}` : String(marker.name||'').trim();
+}
+export function featureLabel(feature) {
+  return markerLabel({name:feature.get('name'),taskData:feature.get('taskData')});
+}
 export function makeCatalog(markers) {
   const index=new Map();
   for(const marker of markers){
-    const name=String(marker.name || '').trim(),key=locationKey(name);
+    const name=markerLabel(marker),key=locationKey(name);
     if(!key || marker.type==='polygon')continue;
     const entry=index.get(key)||{key,name,count:0,keywords:''};entry.count++;const tags=markerKeywords(marker);if(tags&&!entry.keywords.includes(tags))entry.keywords+=' '+tags;index.set(key,entry);
   }
@@ -28,7 +35,7 @@ export function makeCatalog(markers) {
 }
 export function filterPredicate(selected, query, keywords=()=> '') {
   const exact=new Set(selected.map(locationKey)),queries=query.split(/[,;\n]/).map(q=>q.trim()).filter(Boolean);
-  return name=>exact.has(locationKey(name)) || (exact.has('all landing zones')&&nameMatches(name,'lz',keywords(name))) || (exact.has('all loot')&&nameMatches(name,'loot',keywords(name))) || queries.some(q=>nameMatches(name,q,keywords(name)));
+  return name=>exact.has(locationKey(name)) || (exact.has('all tasks')&&locationKey(name).startsWith('task: ')) || (!locationKey(name).startsWith('task: ')&&((exact.has('all landing zones')&&nameMatches(name,'lz',keywords(name))) || (exact.has('all loot')&&nameMatches(name,'loot',keywords(name))))) || queries.some(q=>nameMatches(name,q,keywords(name)));
 }
 
 // Remove unmatched features from native sources so they are neither drawn nor clickable.
@@ -42,7 +49,7 @@ export class LocationFilter {
     record.add=event=>{
       if(this.mutating)return;record.eligible.add(event.feature);
       if(this.active){this.mutating=true;try{
-        if(!this.isEligible(event.feature)||!filterPredicate(this.selected,this.query,this.keywords)(event.feature.get('name')))source.removeFeature(event.feature);
+        if(!this.isEligible(event.feature)||!filterPredicate(this.selected,this.query,this.keywords)(featureLabel(event.feature)))source.removeFeature(event.feature);
         else{layer.setVisible(true);layer.setMinZoom(0);layer.setMaxZoom(30);}
       }finally{this.mutating=false;}}
       this.onChange();
@@ -76,7 +83,7 @@ export class LocationFilter {
       for(const record of this.records.values()){
         let count=0;
         for(const feature of record.eligible){
-          const match=this.isEligible(feature)&&matches(feature.get('name'));
+          const match=this.isEligible(feature)&&matches(featureLabel(feature));
           if(match){count++;if(!record.source.hasFeature(feature))record.source.addFeature(feature);}
           else if(record.source.hasFeature(feature))record.source.removeFeature(feature);
         }
@@ -85,6 +92,6 @@ export class LocationFilter {
     }finally{this.mutating=false;}
   }
   getFeatures(){return [...this.records.values()].flatMap(r=>[...r.eligible]);}
-  matchingFeatures(){const matches=filterPredicate(this.selected,this.query,this.keywords);return this.getFeatures().filter(f=>this.isEligible(f)&&matches(f.get('name')));}
+  matchingFeatures(){const matches=filterPredicate(this.selected,this.query,this.keywords);return this.getFeatures().filter(f=>this.isEligible(f)&&matches(featureLabel(f)));}
   dispose(){for(const layer of [...this.records.keys()])this.untrack(layer);}
 }

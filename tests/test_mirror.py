@@ -13,11 +13,13 @@ class MirrorTests(unittest.TestCase):
         self.assertIn('gzw:map-ready',patched)
         self.assertIn('gzw:draw-ready',patched)
         self.assertIn('runNote',patched)
+        self.assertIn('s.set("taskData",o.taskData||null)',patched)
         with self.assertRaises(RuntimeError): server.patch_map_bridge('unrecognized upstream version')
 
     def test_planner_references_load_without_network(self):
         payload=server.planner_payload('lamang',offline=True)
         self.assertGreater(len(payload['markers']['17']['markersArray']),0)
+        self.assertTrue(any(group['markersArray'] for group in payload['taskMarkers'].values()))
         self.assertTrue(any(k['short_name']=='PLA H03' for k in payload['keys']))
         with self.assertRaises(ValueError): server.planner_payload('../private')
 
