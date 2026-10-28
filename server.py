@@ -11,6 +11,7 @@ from contextlib import contextmanager
 import hashlib
 import json
 import mimetypes
+import os
 import re
 import sqlite3
 import threading
@@ -21,8 +22,8 @@ import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-CACHE = ROOT / 'cache'
+ROOT = Path(os.environ.get('GZW_RESOURCE_ROOT', Path(__file__).resolve().parent))
+CACHE = Path(os.environ.get('GZW_CACHE_DIR', ROOT / 'cache'))
 SNAPSHOT = ROOT / 'snapshot'
 ORIGIN = 'https://gzwtacmap.com'
 HOSTS = {'cdn': 'https://cdn.gzwtacmap.com', 'static': 'https://static.gzwtacmap.com'}
@@ -33,7 +34,7 @@ LOCKS = [threading.Lock() for _ in range(128)]
 
 @contextmanager
 def db():
-    CACHE.mkdir(exist_ok=True)
+    CACHE.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(CACHE / 'responses.sqlite3', timeout=60)
     conn.execute('PRAGMA journal_mode=WAL')
     conn.execute('CREATE TABLE IF NOT EXISTS responses (url TEXT PRIMARY KEY, body BLOB NOT NULL, mime TEXT NOT NULL, fetched REAL NOT NULL)')
@@ -208,6 +209,7 @@ def main():
     server = ThreadingHTTPServer(('127.0.0.1', args.port), Handler)
     server.daemon_threads = True
     server.offline = args.offline
+    print('GZW_SERVER_READY ' + json.dumps({'port': server.server_port}), flush=True)
     print(f'Personal GZW Tac Map: http://localhost:{args.port}{DEFAULT_VIEW}', flush=True)
     print('Read-only upstream access; downloaded resources are cached locally. Ctrl+C stops the server.', flush=True)
     try: server.serve_forever()

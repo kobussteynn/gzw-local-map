@@ -6,3 +6,6 @@ __pycache__/
 .env.*
 !.env.example
 *.zip
+node_modules/
+build/
+dist/

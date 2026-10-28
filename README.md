@@ -2,7 +2,29 @@
 
 A local mirror of the public [GZW Tac Map](https://gzwtacmap.com/maps/lamang), captured on 24 October 2026. It runs the original browser JavaScript and styles, preserving the map UI rather than approximating it with a new design.
 
-## Run
+## Install the Windows desktop app
+
+1. [Download GZW Tac Map Setup.exe](https://github.com/kobussteynn/gzw-local-map/releases/latest).
+2. Double-click the installer. It installs for your Windows user and creates desktop and Start menu shortcuts.
+3. Open **GZW Tac Map**. The map runs in its own desktop window.
+
+No Python, Node.js, browser, account, or terminal is needed. Internet access is needed for map data that has not been downloaded yet. This is an unsigned community application, not an official GZW release.
+
+The desktop app stores notes, saved runs and downloaded map data in its own Windows app-data folder, separate from Opera/Chrome. Use **Map > Open data folder** to find it. Existing browser runs can be exported as JSON and imported using the Runs panel. The app preserves its data through updates and uninstall. The old browser launcher remains available for people who prefer it.
+
+## Build the desktop installer (maintainers)
+
+On Windows x64, install Node.js and Python 3.10 or newer, then run:
+
+```powershell
+npm ci
+python -m pip install -r desktop/requirements-build.txt
+npm run build:win
+```
+
+The installer is generated under `dist/`. Electron wraps the existing map; PyInstaller bundles the local Python service so end users do not install Python. The desktop service listens only on 127.0.0.1:4174 and stops when the desktop app closes. It has a separate persistent profile from the browser app on port 4173. `npm run desktop` starts the desktop app from source using Python.
+
+## Run from source in a browser
 
 Requires Python 3.10 or newer. No package installation, API key, or build step is needed.
 
