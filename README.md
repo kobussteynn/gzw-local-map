@@ -4,7 +4,7 @@ A local mirror of the public [GZW Tac Map](https://gzwtacmap.com/maps/lamang), c
 
 ## Install the Windows desktop app
 
-1. [Download GZW Tac Map Setup.exe](https://github.com/kobussteynn/gzw-local-map/releases/latest).
+1. [Download GZW Tac Map Setup 1.1.2.exe](https://github.com/kobussteynn/gzw-local-map/releases/download/v1.1.2/GZW-Tac-Map-Setup-1.1.2.exe). This is the corrected version with mission selection in Tasks. You can also check the [latest release](https://github.com/kobussteynn/gzw-local-map/releases/latest).
 2. Double-click the installer. It installs for your Windows user and creates desktop and Start menu shortcuts.
 3. Open **GZW Tac Map**. The map runs in its own desktop window.
 
