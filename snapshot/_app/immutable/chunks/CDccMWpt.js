@@ -1,0 +1,1 @@
+import{a as e,i as t}from"./KkaU39s5.js";var n=`gzwtcmp:data.intel.collected`;function r(e){return!e||typeof e!=`object`||Array.isArray(e)?{}:Object.entries(e).reduce((e,[t,n])=>{let r=Number(t),i=Math.floor(Number(n));return Number.isSafeInteger(r)&&r>0&&i>0&&(e[r]=i),e},{})}function i(e){return t(n,r,e)}function a(t,i){return e(n,t,r,i)}export{r as n,a as r,i as t};

@@ -1,0 +1,626 @@
+[
+  {
+    "name": "operationBase",
+    "size": [
+      26,
+      26
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-base"
+  },
+  {
+    "name": "intel",
+    "size": [
+      34,
+      34
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-intel"
+  },
+  {
+    "name": "unFirearmsBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-un-firearms-box"
+  },
+  {
+    "name": "briefcase",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-briefcase"
+  },
+  {
+    "name": "locked",
+    "size": [
+      22,
+      22
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-door-locked"
+  },
+  {
+    "name": "unlocked",
+    "size": [
+      22,
+      22
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-door-unlocked"
+  },
+  {
+    "name": "jewelryBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-jewelry-box"
+  },
+  {
+    "name": "plasticContainer",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-plastic-container"
+  },
+  {
+    "name": "parkour",
+    "size": [
+      30,
+      30
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-parkour"
+  },
+  {
+    "name": "unFirearmsCrate",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-un-firearms-crate"
+  },
+  {
+    "name": "crosshair",
+    "size": [
+      20,
+      20
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-crosshair"
+  },
+  {
+    "name": "unGearCrate",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-un-gear-crate"
+  },
+  {
+    "name": "xp",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-xp"
+  },
+  {
+    "name": "medicalBag",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-medical-bag"
+  },
+  {
+    "name": "landingZone",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-landing-zone"
+  },
+  {
+    "name": "buriedCacheLarge",
+    "size": [
+      26,
+      26
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-buried-cache-large"
+  },
+  {
+    "name": "metalBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-metal-box"
+  },
+  {
+    "name": "militaryMedicalCrate",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-military-medical-crate"
+  },
+  {
+    "name": "interaction",
+    "size": [
+      30,
+      30
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-interaction"
+  },
+  {
+    "name": "leader",
+    "size": [
+      30,
+      30
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-leader"
+  },
+  {
+    "name": "meatBong",
+    "size": [
+      30,
+      30
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-cult-meatbong"
+  },
+  {
+    "name": "blockpost",
+    "size": [
+      30,
+      30
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-blockpost"
+  },
+  {
+    "name": "interestedPlaces",
+    "size": [
+      30,
+      30
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-easter-egg"
+  },
+  {
+    "name": "target",
+    "size": [
+      28,
+      28
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-target"
+  },
+  {
+    "name": "target-temp",
+    "size": [
+      28,
+      28
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-target-temp"
+  },
+  {
+    "name": "target-1",
+    "size": [
+      28,
+      28
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-target-1"
+  },
+  {
+    "name": "target-2",
+    "size": [
+      28,
+      28
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-target-2"
+  },
+  {
+    "name": "target-3",
+    "size": [
+      28,
+      28
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-target-3"
+  },
+  {
+    "name": "explorationTask",
+    "size": [
+      32,
+      32
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-hidden-task"
+  },
+  {
+    "name": "copSmall",
+    "size": [
+      28,
+      28
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-cop-small"
+  },
+  {
+    "name": "copBig",
+    "size": [
+      28,
+      28
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-cop-big"
+  },
+  {
+    "name": "cooler",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-cooler"
+  },
+  {
+    "name": "foodTransportCrate",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-food-transport"
+  },
+  {
+    "name": "purse",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-purse"
+  },
+  {
+    "name": "duffleBag-3",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-duffle-bag-3"
+  },
+  {
+    "name": "safe",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-safe"
+  },
+  {
+    "name": "key",
+    "size": [
+      26,
+      26
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-key"
+  },
+  {
+    "name": "bug",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-bug"
+  },
+  {
+    "name": "groundZero",
+    "size": [
+      42,
+      42
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-ground-zero"
+  },
+  {
+    "name": "duffleBag",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-duffle-bag"
+  },
+  {
+    "name": "duffleBag-1",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-duffle-bag-1"
+  },
+  {
+    "name": "duffleBag-2",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-duffle-bag-2"
+  },
+  {
+    "name": "deadBody",
+    "size": [
+      20,
+      20
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-dead-body"
+  },
+  {
+    "name": "communityEvent",
+    "size": [
+      32,
+      32
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-community-event"
+  },
+  {
+    "name": "pmcBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-pmc-box"
+  },
+  {
+    "name": "militaryFirearmsCrate",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-military-firearms-crate"
+  },
+  {
+    "name": "firstAidCabinet",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-first-aid-cabinet"
+  },
+  {
+    "name": "civilianChest",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-civilian-chest"
+  },
+  {
+    "name": "cashRegisterSmall",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-cash-register-small"
+  },
+  {
+    "name": "cashRegister",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-cash-register"
+  },
+  {
+    "name": "coded",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-door-coded"
+  },
+  {
+    "name": "ammo",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-ammo"
+  },
+  {
+    "name": "csiFirearmsBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-csi-firearms-box"
+  },
+  {
+    "name": "tribute",
+    "size": [
+      34,
+      34
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-easter-egg"
+  },
+  {
+    "name": "buriedCacheMedium",
+    "size": [
+      26,
+      26
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-buried-cache-medium"
+  },
+  {
+    "name": "cashRegisterMedium",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-cash-register-medium"
+  },
+  {
+    "name": "drawCircle",
+    "size": [
+      30,
+      30
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-draw-circle"
+  },
+  {
+    "name": "carTrunk",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-car-trunk"
+  },
+  {
+    "name": "magazine",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-magazine"
+  },
+  {
+    "name": "keycard",
+    "size": [
+      26,
+      26
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-keycard"
+  },
+  {
+    "name": "jacket",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-jacket"
+  },
+  {
+    "name": "buriedCacheSmall",
+    "size": [
+      26,
+      26
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-buried-cache-small"
+  },
+  {
+    "name": "landingZoneFaction",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-landing-zone-faction"
+  },
+  {
+    "name": "foodStorage",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-food-storage"
+  },
+  {
+    "name": "toolBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-tools"
+  },
+  {
+    "name": "atm",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-atm"
+  },
+  {
+    "name": "militaryGearCrate",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-military-gear-crate"
+  },
+  {
+    "name": "stone",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-stone"
+  },
+  {
+    "name": "unConvoyBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-ui-convoy-box"
+  },
+  {
+    "name": "unBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-un-box"
+  },
+  {
+    "name": "unCrate",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-un-crate"
+  },
+  {
+    "name": "militaryBox",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-military-box"
+  },
+  {
+    "name": "militaryCrate",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-military-crate"
+  },
+  {
+    "name": "woodenMilitary",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-wooden-military"
+  },
+  {
+    "name": "purseRich",
+    "size": [
+      24,
+      24
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-purse-rich"
+  },
+  {
+    "name": "item",
+    "size": [
+      20,
+      20
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-item"
+  },
+  {
+    "name": "disassembly-material",
+    "size": [
+      22,
+      22
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-disassembly-material"
+  },
+  {
+    "name": "building-material",
+    "size": [
+      22,
+      22
+    ],
+    "path": "https://sdshcnxoamnpghepiztt.supabase.co/storage/v1/object/public/icons/icon-building-material-crate"
+  }
+]

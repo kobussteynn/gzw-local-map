@@ -1,0 +1,1 @@
+import{Ot as e,kt as t}from"../chunks/GpLTbmrv.js";import"../chunks/NncQlgY3.js";import{t as n}from"../chunks/EbOboamP.js";function r(r,i){t(i,!0),n(r,{get entityTypes(){return i.data.entityTypes},get navigationItems(){return i.data.navigationItems},get pois(){return i.data.pois}}),e()}export{r as component};

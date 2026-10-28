@@ -1,0 +1,1 @@
+import{Dt as e,Ot as t,d as n,kt as r,r as i}from"../chunks/GpLTbmrv.js";import"../chunks/NncQlgY3.js";import"../chunks/CDU2JpS6.js";function a(a,o){r(o,!1);let s=e(`rData`);i(()=>{s.selectedMarker.id=null,s.selectedMarker.feature=null,s.selectedMarker.coords=null}),n(),t()}export{a as component};

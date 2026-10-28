@@ -1,0 +1,1 @@
+import{D as e,E as t,K as n,Pt as r,W as i,a,lt as o,mt as s}from"./GpLTbmrv.js";import"./NncQlgY3.js";var c=n(`<div><div></div></div>`);function l(n,l){let u=a(l,`size`,3,`m`);var d=c(),f=s(d);t(f,1,e([`element`]),`svelte-1wfedn5`),r(d),o(()=>t(d,1,e([`spinner`,`size-${u()}`]),`svelte-1wfedn5`)),i(n,d)}export{l as t};

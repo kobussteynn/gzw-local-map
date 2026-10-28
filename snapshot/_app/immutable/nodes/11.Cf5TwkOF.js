@@ -1,0 +1,1 @@
+import{G as e,Lt as t,P as n,W as r,ht as i}from"../chunks/GpLTbmrv.js";import"../chunks/NncQlgY3.js";function a(a,o){var s=e(),c=i(s);n(c,()=>o.children??t),r(a,s)}export{a as component};

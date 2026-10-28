@@ -1,0 +1,720 @@
+{
+  "resources": [
+    {
+      "path": "/",
+      "bytes": 24785,
+      "source": "cache"
+    },
+    {
+      "path": "/__data.json",
+      "bytes": 2803,
+      "source": "cache"
+    },
+    {
+      "path": "/_app/remote/1g4p39w/fetchMapMarkers?payload=W1siX19za3JhbyIsMV0seyJtYXBJZCI6MiwibWFwVXJsIjozfSwxLCJsYW1hbmciXQ",
+      "bytes": 2544801,
+      "source": "cache"
+    },
+    {
+      "path": "/_app/remote/1g4p39w/fetchMapMarkers?payload=W1siX19za3JhbyIsMV0seyJtYXBJZCI6MiwibWFwVXJsIjozfSwyLCJ5YmwtMSJd",
+      "bytes": 13897,
+      "source": "upstream"
+    },
+    {
+      "path": "/api/icons",
+      "bytes": 10549,
+      "source": "cache"
+    },
+    {
+      "path": "/changelog",
+      "bytes": 25853,
+      "source": "cache"
+    },
+    {
+      "path": "/changelog/__data.json",
+      "bytes": 21617,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang",
+      "bytes": 53864,
+      "source": "snapshot"
+    },
+    {
+      "path": "/maps/lamang/__data.json",
+      "bytes": 17589,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/archive",
+      "bytes": 52576,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/archive/__data.json",
+      "bytes": 8053,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/1",
+      "bytes": 50412,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/1/__data.json",
+      "bytes": 8584,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/17",
+      "bytes": 31985,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/17/__data.json",
+      "bytes": 4811,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/18",
+      "bytes": 18718,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/18/__data.json",
+      "bytes": 2711,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/19",
+      "bytes": 28683,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/19/__data.json",
+      "bytes": 4305,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/2",
+      "bytes": 18910,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/2/__data.json",
+      "bytes": 2642,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/20",
+      "bytes": 158541,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/20/__data.json",
+      "bytes": 22638,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/21",
+      "bytes": 19413,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/21/__data.json",
+      "bytes": 2681,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/22",
+      "bytes": 23387,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/22/__data.json",
+      "bytes": 3478,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/25",
+      "bytes": 40562,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/25/__data.json",
+      "bytes": 5709,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/26",
+      "bytes": 87741,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/26/__data.json",
+      "bytes": 12358,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/27",
+      "bytes": 72679,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/27/__data.json",
+      "bytes": 10159,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/28",
+      "bytes": 100972,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/28/__data.json",
+      "bytes": 14509,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/29",
+      "bytes": 212200,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/29/__data.json",
+      "bytes": 30568,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/3",
+      "bytes": 71522,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/3/__data.json",
+      "bytes": 11875,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/30",
+      "bytes": 17282,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/30/__data.json",
+      "bytes": 2346,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/31",
+      "bytes": 31446,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/31/__data.json",
+      "bytes": 4204,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/35",
+      "bytes": 36486,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/35/__data.json",
+      "bytes": 4978,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/36",
+      "bytes": 16506,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/36/__data.json",
+      "bytes": 2209,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/37",
+      "bytes": 26951,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/37/__data.json",
+      "bytes": 4213,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/38",
+      "bytes": 36464,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/38/__data.json",
+      "bytes": 5999,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/4",
+      "bytes": 455694,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/4/__data.json",
+      "bytes": 72677,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/40",
+      "bytes": 17087,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/40/__data.json",
+      "bytes": 2345,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/41",
+      "bytes": 26603,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/41/__data.json",
+      "bytes": 3631,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/42",
+      "bytes": 140782,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/42/__data.json",
+      "bytes": 19676,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/43",
+      "bytes": 269515,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/43/__data.json",
+      "bytes": 38848,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/44",
+      "bytes": 55289,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/44/__data.json",
+      "bytes": 7895,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/45",
+      "bytes": 105630,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/45/__data.json",
+      "bytes": 15111,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/46",
+      "bytes": 66880,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/46/__data.json",
+      "bytes": 9597,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/48",
+      "bytes": 34068,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/48/__data.json",
+      "bytes": 4993,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/49",
+      "bytes": 20502,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/49/__data.json",
+      "bytes": 2879,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/5",
+      "bytes": 16639,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/5/__data.json",
+      "bytes": 2244,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/50",
+      "bytes": 41785,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/50/__data.json",
+      "bytes": 5839,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/51",
+      "bytes": 22623,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/51/__data.json",
+      "bytes": 3122,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/52",
+      "bytes": 82383,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/52/__data.json",
+      "bytes": 11604,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/53",
+      "bytes": 66259,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/53/__data.json",
+      "bytes": 9395,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/55",
+      "bytes": 67977,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/55/__data.json",
+      "bytes": 9397,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/56",
+      "bytes": 19452,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/56/__data.json",
+      "bytes": 2672,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/57",
+      "bytes": 48661,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/57/__data.json",
+      "bytes": 6841,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/58",
+      "bytes": 34545,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/58/__data.json",
+      "bytes": 4689,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/59",
+      "bytes": 20302,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/59/__data.json",
+      "bytes": 2784,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/6",
+      "bytes": 37669,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/6/__data.json",
+      "bytes": 5204,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/60",
+      "bytes": 23536,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/60/__data.json",
+      "bytes": 3328,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/61",
+      "bytes": 20125,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/61/__data.json",
+      "bytes": 2750,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/62",
+      "bytes": 25897,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/62/__data.json",
+      "bytes": 3664,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/63",
+      "bytes": 23281,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/63/__data.json",
+      "bytes": 3248,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/65",
+      "bytes": 33149,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/65/__data.json",
+      "bytes": 4662,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/66",
+      "bytes": 145693,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/66/__data.json",
+      "bytes": 20497,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/67",
+      "bytes": 24441,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/67/__data.json",
+      "bytes": 3431,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/68",
+      "bytes": 230438,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/68/__data.json",
+      "bytes": 33236,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/69",
+      "bytes": 16586,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/69/__data.json",
+      "bytes": 2232,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/70",
+      "bytes": 29142,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/70/__data.json",
+      "bytes": 4666,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/71",
+      "bytes": 22211,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/71/__data.json",
+      "bytes": 3143,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/72",
+      "bytes": 20221,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/72/__data.json",
+      "bytes": 2773,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/73",
+      "bytes": 50669,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/73/__data.json",
+      "bytes": 6936,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/74",
+      "bytes": 22389,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/74/__data.json",
+      "bytes": 3232,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/8",
+      "bytes": 37003,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/8/__data.json",
+      "bytes": 5442,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/9",
+      "bytes": 37400,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/group/9/__data.json",
+      "bytes": 5345,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/keys",
+      "bytes": 128800,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/keys/__data.json",
+      "bytes": 34519,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/settings",
+      "bytes": 20998,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/settings/__data.json",
+      "bytes": 1864,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/tasks",
+      "bytes": 505375,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/lamang/tasks/__data.json",
+      "bytes": 104355,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/ybl-1",
+      "bytes": 26754,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/ybl-1/__data.json",
+      "bytes": 5364,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/ybl-1/keys",
+      "bytes": 128702,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/ybl-1/keys/__data.json",
+      "bytes": 34533,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/ybl-1/tasks",
+      "bytes": 28789,
+      "source": "cache"
+    },
+    {
+      "path": "/maps/ybl-1/tasks/__data.json",
+      "bytes": 4482,
+      "source": "cache"
+    },
+    {
+      "path": "/player-levels",
+      "bytes": 48432,
+      "source": "cache"
+    },
+    {
+      "path": "/player-levels/__data.json",
+      "bytes": 13346,
+      "source": "cache"
+    },
+    {
+      "path": "/task-rewards",
+      "bytes": 59736,
+      "source": "cache"
+    },
+    {
+      "path": "/task-rewards/__data.json",
+      "bytes": 35572,
+      "source": "cache"
+    },
+    {
+      "path": "/valuable-loot",
+      "bytes": 38302,
+      "source": "cache"
+    },
+    {
+      "path": "/valuable-loot/__data.json",
+      "bytes": 8637,
+      "source": "cache"
+    }
+  ],
+  "errors": []
+}

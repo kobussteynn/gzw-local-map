@@ -1,0 +1,26 @@
+[
+  {
+    "file": "icons.json",
+    "source": "https://gzwtacmap.com/api/icons"
+  },
+  {
+    "file": "lamang-markers.json",
+    "source": "https://gzwtacmap.com/_app/remote/1g4p39w/fetchMapMarkers?payload=W1siX19za3JhbyIsMV0seyJtYXBJZCI6MiwibWFwVXJsIjozfSwxLCJsYW1hbmciXQ",
+    "marker_count": 5254,
+    "group_count": 55
+  },
+  {
+    "file": "ybl-1-markers.json",
+    "source": "https://gzwtacmap.com/_app/remote/1g4p39w/fetchMapMarkers?payload=W1siX19za3JhbyIsMV0seyJtYXBJZCI6MiwibWFwVXJsIjozfSwyLCJ5YmwtMSJd",
+    "marker_count": 23,
+    "group_count": 9
+  },
+  {
+    "file": "lamang-keys.json",
+    "source": "https://gzwtacmap.com/maps/lamang/keys/__data.json"
+  },
+  {
+    "file": "lamang-tasks.json",
+    "source": "https://gzwtacmap.com/maps/lamang/tasks/__data.json"
+  }
+]

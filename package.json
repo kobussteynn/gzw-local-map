@@ -1,0 +1,11 @@
+{
+  "name": "personal-gzw-tac-map",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local personal mirror of the public GZW Tac Map client, assets and APIs",
+  "scripts": {
+    "start": "python server.py",
+    "dev": "python server.py",
+    "check": "python -m unittest discover -s tests -v && node --test tests/planner.test.mjs tests/location-filter.test.mjs"
+  }
+}

@@ -1,0 +1,1 @@
+import{Nt as e,W as t,Y as n}from"../chunks/GpLTbmrv.js";import"../chunks/NncQlgY3.js";import"../chunks/CDU2JpS6.js";function r(r){e();var i=n(`test`);t(r,i)}export{r as component};

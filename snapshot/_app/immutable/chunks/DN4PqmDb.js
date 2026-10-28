@@ -1,0 +1,1 @@
+import{K as e,Pt as t,U as n,W as r,a as i,gt as a,lt as o,mt as s}from"./GpLTbmrv.js";import"./NncQlgY3.js";var c=e(`<header class="ui-section-header svelte-1rwji4e"><h1 class="title svelte-1rwji4e"> </h1></header>`);function l(e,l){let u=i(l,`title`,3,null);var d=c(),f=s(d),p=a(f,!0);t(d),o(()=>n(p,u())),r(e,d)}export{l as t};

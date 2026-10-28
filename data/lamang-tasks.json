@@ -1,0 +1,8352 @@
+{
+  "profile": null,
+  "meta": {
+    "title": "Full Task List & Tracker — Gray Zone Warfare | GZW Tac Map",
+    "description": "Complete list of all Gray Zone Warfare tasks for every faction. A powerful tracker to monitor your progress, view exact locations with screenshots, descriptions, and video guides from creators. Includes total task counts, faction-unique missions, and additional completion stats.",
+    "url": "https://gzwtacmap.com/maps/lamang/tasks",
+    "canonicalPathname": "/maps/lamang/tasks",
+    "image": "https://gzwtacmap.com/assets/images/og/og-tasks.png"
+  },
+  "lang": "",
+  "isMobile": false,
+  "mapData": {
+    "id": 1,
+    "title": "Gray Zone Warfare Interactive Map | Lamang | GZW Tac Map",
+    "description": "Explore the detailed interactive map of Lamang and delve into its rich history. Find any locations including landing zones, tasks, keys, loot spots, and more.",
+    "keywords": "gray zone warfare map, gray zone warfare locations, gray zone warfare tasks, gray zone warfare missions, gray zone warfare strategy, gray zone warfare guide, gray zone warfare tips, gray zone warfare walkthrough, gray zone warfare gameplay, gray zone warfare resources, gray zone warfare objectives, gray zone warfare factions, Gray Zone Warfare Interactive Map, Gray Zone Map, GZW Map, Gray Zone Locked Doors, Gray Zone Loot Heatmaps, Gray Zone Spawns, Gray Zone Extracts, Gray Zone Warfare Enemy Spawn Maps",
+    "url": "lamang",
+    "grid": {
+      "corner": "bottom-left",
+      "tileZoom": {
+        "minZoom": 11,
+        "maxZoom": 19
+      },
+      "mapZoom": {
+        "minZoom": 14,
+        "maxZoom": 21
+      },
+      "cells": {
+        "x": 14,
+        "y": 8
+      },
+      "extent": [
+        0,
+        0,
+        14000,
+        8000
+      ],
+      "cellLabel": false,
+      "sideLabel": true,
+      "label": {
+        "type": {
+          "x": "number",
+          "y": "number"
+        },
+        "position": {
+          "x": "top",
+          "y": "right"
+        }
+      },
+      "steps": [
+        {
+          "zoom": 16.5,
+          "opacity": 0.01,
+          "cells": {
+            "x": 140,
+            "y": 80
+          }
+        }
+      ]
+    },
+    "code_name": "lamang"
+  },
+  "mapUrl": "lamang",
+  "test": "bla",
+  "tasksData": [
+    {
+      "id": 21,
+      "name": "Rat’s Nest",
+      "slug": "rat-s-nest",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1277,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1278,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1381,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1382,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1400,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1401,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Starter Town",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 20,
+      "name": "Last Farewell",
+      "slug": "last-farewell",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1287,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1385,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1399,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Starter Town",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 26
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 26
+    },
+    {
+      "id": 23,
+      "name": "Helping Hand",
+      "slug": "helping-hand",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1280,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1384,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1403,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Starter Town",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 29,
+      "name": "Secret Compassion",
+      "slug": "secret-compassion",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1283,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1284,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1388,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1390,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1407,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2184,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Starter Town",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 26,
+      "name": "Left Behind",
+      "slug": "left-behind",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1287,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1385,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1399,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Starter Town",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 20
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 20
+    },
+    {
+      "id": 65,
+      "name": "Hacker",
+      "slug": "hacker",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1292,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1293,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1294,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1295,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1447,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1448,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1449,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1450,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 24,
+      "name": "Restoring Order",
+      "slug": "restoring-order",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Starter Town",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 63,
+      "name": "Fort Narith Stroll",
+      "slug": "fort-narith-stroll",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 351,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2298,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2299,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2300,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 66,
+      "name": "The More the Merrier",
+      "slug": "the-more-the-merrier",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1456,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2817,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2818,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 60,
+      "name": "New Neighbors",
+      "slug": "new-neighbors",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1620,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2210,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2211,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 69,
+      "name": "I went, I saw, I conquered",
+      "slug": "i-went-i-saw-i-conquered",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1303,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1304,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1332,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1333,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1426,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3406,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 108,
+      "name": "One Shot, One Kill",
+      "slug": "one-shot-one-kill",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 111,
+      "name": "What Comes Up",
+      "slug": "what-comes-up",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1352,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 133
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 133
+    },
+    {
+      "id": 112,
+      "name": "Deepest, Darkest Fantasies",
+      "slug": "deepest-darkest-fantasies",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1297,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 113,
+      "name": "Lip Out",
+      "slug": "lip-out",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1451,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1705,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 114,
+      "name": "Left Behind II",
+      "slug": "left-behind-ii",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1371,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 104
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 104
+    },
+    {
+      "id": 116,
+      "name": "Final Check Out",
+      "slug": "final-check-out",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1298,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 117,
+      "name": "Priceless Possessions",
+      "slug": "priceless-possessions",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1493,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2847,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 138
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 138
+    },
+    {
+      "id": 119,
+      "name": "Last Resort",
+      "slug": "last-resort",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2559,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 124,
+      "name": "The Man Who Disappeared",
+      "slug": "the-man-who-disappeared",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1452,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3500,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 126,
+      "name": "Celebrity Crash",
+      "slug": "celebrity-crash",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1505,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 95
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": 95
+    },
+    {
+      "id": 127,
+      "name": "The Congressman",
+      "slug": "the-congressman",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1296,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 96
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 96
+    },
+    {
+      "id": 128,
+      "name": "Up to Snuff",
+      "slug": "up-to-snuff",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1314,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 94
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 94
+    },
+    {
+      "id": 130,
+      "name": "Domesticated Rat",
+      "slug": "domesticated-rat",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1299,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1300,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 107,
+      "name": "True Grit",
+      "slug": "true-grit",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1309,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 115,
+      "name": "Business or Pleasure",
+      "slug": "business-or-pleasure",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1306,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1308,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3389,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3390,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 125,
+      "name": "Paparazzi",
+      "slug": "paparazzi",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1475,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1476,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 163,
+      "name": "The Shadow over Ban Pa",
+      "slug": "the-shadow-over-ban-pa",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1301,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1302,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1346,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1347,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1348,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3440,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 165,
+      "name": "UNLRA",
+      "slug": "unlra",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1453,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1454,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1530,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3295,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3476,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 169,
+      "name": "Hide and Seek",
+      "slug": "hide-and-seek",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1433,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1434,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1506,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1507,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1508,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1509,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1510,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 79,
+      "name": "In the Right Hands",
+      "slug": "in-the-right-hands",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1496,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 42
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 42
+    },
+    {
+      "id": 80,
+      "name": "Family Heirloom",
+      "slug": "family-heirloom",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1320,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 81,
+      "name": "Downsizing",
+      "slug": "downsizing",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "Fort Narith",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 83,
+      "name": "Dragonslayer",
+      "slug": "dragonslayer",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 910,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 84,
+      "name": "Final Liberation",
+      "slug": "final-liberation",
+      "type": "ltc",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 86,
+      "name": "A Tiding of Magpies",
+      "slug": "a-tiding-of-magpies",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1315,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 87,
+      "name": "The Snitch",
+      "slug": "the-snitch",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1318,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1319,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 89,
+      "name": "Name Your Poison",
+      "slug": "name-your-poison",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1513,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1634,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 73
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 73
+    },
+    {
+      "id": 82,
+      "name": "A Small Favor",
+      "slug": "a-small-favor",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1425,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1437,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 46
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": 46
+    },
+    {
+      "id": 85,
+      "name": "Double Exposure",
+      "slug": "double-exposure",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1526,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1527,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1528,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 88,
+      "name": "Dishonest Practices",
+      "slug": "dishonest-practices",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1317,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 134,
+      "name": "Delayed Package",
+      "slug": "delayed-package",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1469,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1470,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 138,
+      "name": "Local Golf Star",
+      "slug": "local-golf-star",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1493,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2847,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 117
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 117
+    },
+    {
+      "id": 137,
+      "name": "Academic Interest",
+      "slug": "academic-interest",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1471,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1477,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 99
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": 99
+    },
+    {
+      "id": 135,
+      "name": "Know Your Enemy",
+      "slug": "know-your-enemy",
+      "type": "main",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1316,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1432,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1473,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3448,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 136,
+      "name": "No Questions Asked",
+      "slug": "no-questions-asked",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1536,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1537,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1570,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 180,
+      "name": "Friendly Suggestion",
+      "slug": "friendly-suggestion",
+      "type": "ltc",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1642,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 183,
+      "name": "One Man's Trash",
+      "slug": "one-man-s-trash",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1498,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 149
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 149
+    },
+    {
+      "id": 185,
+      "name": "Narcotic Bargain",
+      "slug": "narcotic-bargain",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1472,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1478,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 150
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 150
+    },
+    {
+      "id": 184,
+      "name": "The Value of Sharing",
+      "slug": "the-value-of-sharing",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1423,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1445,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 156
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 156
+    },
+    {
+      "id": 47,
+      "name": "EOD",
+      "slug": "eod",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1321,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 44,
+      "name": "State of Weapon Shipment",
+      "slug": "state-of-weapon-shipment",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1325,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 45,
+      "name": "Jets'n'Marks",
+      "slug": "jets-n-marks",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1322,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1323,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1324,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 46,
+      "name": "No Escape",
+      "slug": "no-escape",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1425,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 82
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": 82
+    },
+    {
+      "id": 50,
+      "name": "Timber",
+      "slug": "timber",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 978,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 48,
+      "name": "Crash",
+      "slug": "crash",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1497,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 49,
+      "name": "Deal of the Century",
+      "slug": "deal-of-the-century",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1326,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 95,
+      "name": "Dirt Digger",
+      "slug": "dirt-digger",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1505,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 126
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": 126
+    },
+    {
+      "id": 96,
+      "name": "Felony and Punishment",
+      "slug": "felony-and-punishment",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1296,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 127
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 127
+    },
+    {
+      "id": 99,
+      "name": "Noble Powder",
+      "slug": "noble-powder",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1471,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 137
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": 137
+    },
+    {
+      "id": 145,
+      "name": "Lamang Connection",
+      "slug": "lamang-connection",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1438,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3383,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 94,
+      "name": "A Shot in the Dark",
+      "slug": "a-shot-in-the-dark",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1314,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 128
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 128
+    },
+    {
+      "id": 97,
+      "name": "Skycrawlers",
+      "slug": "skycrawlers",
+      "type": "main",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1441,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1485,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3391,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 149,
+      "name": "What Was Left",
+      "slug": "what-was-left",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1498,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 183
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 183
+    },
+    {
+      "id": 150,
+      "name": "Baked",
+      "slug": "baked",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1472,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 185
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 185
+    },
+    {
+      "id": 146,
+      "name": "Fresh Meat",
+      "slug": "fresh-meat",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1439,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1440,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1474,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2870,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 37,
+      "name": "Missing Colleague II",
+      "slug": "missing-colleague-ii",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1340,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 39,
+      "name": "Garbage Disposal",
+      "slug": "garbage-disposal",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1467,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1468,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 40,
+      "name": "Missing Colleague",
+      "slug": "missing-colleague",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1339,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 41,
+      "name": "The Mistress",
+      "slug": "the-mistress",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1523,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1524,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1525,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 42,
+      "name": "Evacuation Question",
+      "slug": "evacuation-question",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1496,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 79
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 79
+    },
+    {
+      "id": 34,
+      "name": "Prisoner 23",
+      "slug": "prisoner-23",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1341,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 38,
+      "name": "When a Tree Falls",
+      "slug": "when-a-tree-falls",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1337,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 91,
+      "name": "Crime Doesn't Pay",
+      "slug": "crime-doesn-t-pay",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1338,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 93,
+      "name": "Girls Just Wanna Have Fun",
+      "slug": "girls-just-wanna-have-fun",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1342,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 90,
+      "name": "The Most Dangerous Game",
+      "slug": "the-most-dangerous-game",
+      "type": "main",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1336,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1344,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1351,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2336,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 92,
+      "name": "Last Flight",
+      "slug": "last-flight",
+      "type": "contract",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1335,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 140,
+      "name": "Deep Waters",
+      "slug": "deep-waters",
+      "type": "ltc",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 913,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 141,
+      "name": "Artisan's List",
+      "slug": "artisan-s-list",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1343,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1436,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2791,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 139,
+      "name": "At the Mounds of Madness",
+      "slug": "at-the-mounds-of-madness",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1328,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1329,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1330,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1331,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 142,
+      "name": "Artisan's List II",
+      "slug": "artisan-s-list-ii",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1466,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 144,
+      "name": "Lost Hope",
+      "slug": "lost-hope",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2326,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 75,
+      "name": "Mystery Machines",
+      "slug": "mystery-machines",
+      "type": "main",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1534,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1535,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3437,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 76,
+      "name": "Duty to the Country",
+      "slug": "duty-to-the-country",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1349,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 77,
+      "name": "Seeker of Change",
+      "slug": "seeker-of-change",
+      "type": "main",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1353,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1354,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1355,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1464,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 73,
+      "name": "Spit Out the Poison",
+      "slug": "spit-out-the-poison",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1513,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 89
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 89
+    },
+    {
+      "id": 133,
+      "name": "Too Close to the Sun",
+      "slug": "too-close-to-the-sun",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1352,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 111
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 111
+    },
+    {
+      "id": 176,
+      "name": "Crumb Collector",
+      "slug": "crumb-collector",
+      "type": "main",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1460,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1461,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1462,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1521,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 174,
+      "name": "Ripper",
+      "slug": "ripper",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1463,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 178,
+      "name": "The Runaway",
+      "slug": "the-runaway",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1495,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 179,
+      "name": "So Close",
+      "slug": "so-close",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1511,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1512,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 177,
+      "name": "Up the Stream",
+      "slug": "up-the-stream",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1345,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 58,
+      "name": "Fuel Shortage",
+      "slug": "fuel-shortage",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1370,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 52,
+      "name": "Wanted Man",
+      "slug": "wanted-man",
+      "type": "main",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1491,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1529,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3467,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3468,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3483,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 53,
+      "name": "Wanted Man II",
+      "slug": "wanted-man-ii",
+      "type": null,
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1522,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.3,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 54,
+      "name": "Expansion",
+      "slug": "expansion",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1361,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 55,
+      "name": "The Rebel Path",
+      "slug": "the-rebel-path",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1362,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1363,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1364,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1365,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 57,
+      "name": "Neighborly Help",
+      "slug": "neighborly-help",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1487,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1488,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 56,
+      "name": "The Negotiator",
+      "slug": "the-negotiator",
+      "type": "main",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1435,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1641,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2348,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3434,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 102,
+      "name": "Guns & Ammo",
+      "slug": "guns-ammo",
+      "type": "main",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 414,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 415,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1357,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 2244,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2327,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3394,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3395,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 103,
+      "name": "A Single Drop",
+      "slug": "a-single-drop",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1359,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1360,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 105,
+      "name": "The Stand",
+      "slug": "the-stand",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1368,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 106,
+      "name": "The Lull",
+      "slug": "the-lull",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2031,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 104,
+      "name": "Last Farewell II",
+      "slug": "last-farewell-ii",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1371,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 114
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 114
+    },
+    {
+      "id": 151,
+      "name": "Aye Aye, Captain",
+      "slug": "aye-aye-captain",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1372,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 152,
+      "name": "Incognito",
+      "slug": "incognito",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1373,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4313,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 153,
+      "name": "Lost Girl",
+      "slug": "lost-girl",
+      "type": "main",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1366,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1458,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1459,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 155,
+      "name": "Unnameable",
+      "slug": "unnameable",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1457,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 156,
+      "name": "Line in the Sand",
+      "slug": "line-in-the-sand",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1423,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 184
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 184
+    },
+    {
+      "id": 159,
+      "name": "No Way Up",
+      "slug": "no-way-up",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1369,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 160,
+      "name": "Observation Duty",
+      "slug": "observation-duty",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1520,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 162,
+      "name": "They Are Everywhere",
+      "slug": "they-are-everywhere",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1367,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3481,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 187,
+      "name": "Hazardous Treasures",
+      "slug": "hazardous-treasures",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1499,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1500,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1501,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1502,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1503,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1504,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 188,
+      "name": "Terminal Initiative",
+      "slug": "terminal-initiative",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1603,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1604,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 1605,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 190,
+      "name": "Draw No Bet",
+      "slug": "draw-no-bet",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2072,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2073,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 191,
+      "name": "Under Our Noses",
+      "slug": "under-our-noses",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2100,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2101,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 193,
+      "name": "Propaganda Problems",
+      "slug": "propaganda-problems",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2077,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 192,
+      "name": "The Cleaner",
+      "slug": "the-cleaner",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2903,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 194,
+      "name": "Irrefusable Offer",
+      "slug": "unrefusable-offer",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2078,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 196,
+      "name": "Muddy Buddy",
+      "slug": "muddy-buddy",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2140,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2141,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2877,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 195,
+      "name": "Sisyphus",
+      "slug": "sisyphus",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2899,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 197,
+      "name": "UNprotected",
+      "slug": "unprotected",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2082,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2083,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2108,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2109,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2177,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2178,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 198,
+      "name": "Last Letter",
+      "slug": "last-letter",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2084,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2085,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2086,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 199,
+      "name": "Snooper",
+      "slug": "snooper",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2087,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2088,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2089,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 200,
+      "name": "Needle in a Jungle",
+      "slug": "needle-in-a-jungle",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1939,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2090,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2091,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 201,
+      "name": "Missing Children",
+      "slug": "missing-children",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2092,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2093,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2094,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 202,
+      "name": "Radio Star",
+      "slug": "radio-star",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2095,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 203,
+      "name": "Revolutionary Road",
+      "slug": "revolutionary-road",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2096,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2097,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 204,
+      "name": "Elderly Delivery",
+      "slug": "elderly-delivery",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2098,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2099,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 206,
+      "name": "Goods Hunting",
+      "slug": "goods-hunting",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1987,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2102,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 207,
+      "name": "King of the Crossroads",
+      "slug": "king-of-the-crossroads",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2103,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2104,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2105,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2360,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 208,
+      "name": "Firestarter",
+      "slug": "firestarter",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2362,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2363,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 210,
+      "name": "Supernatural",
+      "slug": "supernatural",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2112,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2113,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 211,
+      "name": "Unattainable Luxury",
+      "slug": "unattainable-luxury",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2115,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2116,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2117,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 212,
+      "name": "The Liberator",
+      "slug": "the-liberator",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3182,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 213,
+      "name": "Interrupted Aid",
+      "slug": "interrupted-aid",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2143,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 214,
+      "name": "The Trickster",
+      "slug": "the-trickster",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2144,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3192,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 215,
+      "name": "Snow White",
+      "slug": "snow-white",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2173,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2174,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 5793,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 216,
+      "name": "Postman Rings Twice",
+      "slug": "postman-rings-twice",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2179,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2180,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 209,
+      "name": "Don't Speak",
+      "slug": "dont-speak",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2110,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2111,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 219,
+      "name": "Handyman",
+      "slug": "handyman",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2347,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 221,
+      "name": "Troll Bridge",
+      "slug": "troll-bridge",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2364,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 255,
+      "name": "Sunny Skies",
+      "slug": "sunny-skies",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3392,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 258,
+      "name": "Sunken Bird",
+      "slug": "sunken-bird",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3048,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3049,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 259,
+      "name": "Freedom For All",
+      "slug": "freedom-for-all",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3061,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3080,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3081,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 260,
+      "name": "Repossession V",
+      "slug": "repossession-v",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3377,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3378,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 261,
+      "name": "Livestock",
+      "slug": "livestock",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3379,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3380,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 262,
+      "name": "Harvest Moon",
+      "slug": "harvest-moon",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2267,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2314,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2315,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3384,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 263,
+      "name": "Letter From Beyond",
+      "slug": "letter-from-beyond",
+      "type": "contract",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2158,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3385,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 264,
+      "name": "False Positive",
+      "slug": "false-positive",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3386,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3387,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3388,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 265,
+      "name": "Double Agent",
+      "slug": "double-agent",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3396,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3397,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 266,
+      "name": "Repossession II",
+      "slug": "repossession-ii",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3398,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3399,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 267,
+      "name": "Freedom Fighter",
+      "slug": "freedom-fighter",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3400,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 268,
+      "name": "Atrocity Probe",
+      "slug": "atrocity-probe",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3401,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3402,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 269,
+      "name": "Exodus",
+      "slug": "exodus",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2959,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2960,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2961,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2962,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 270,
+      "name": "Lethal Dose",
+      "slug": "lethal-dose",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3403,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3404,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3405,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 271,
+      "name": "Mire Job",
+      "slug": "mire-job",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2079,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2080,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2081,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 272,
+      "name": "In The Trenches",
+      "slug": "in-the-trenches",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3407,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3408,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3409,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 273,
+      "name": "Unlisted Flight",
+      "slug": "unlisted-flight",
+      "type": "main",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3410,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3411,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3412,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3413,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3414,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3417,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 274,
+      "name": "Questionable Shipment",
+      "slug": "questionable-shipment",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3418,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3419,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 275,
+      "name": "Echoes of Exposure",
+      "slug": "echoes-of-exposure",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3420,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3421,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3422,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 276,
+      "name": "Plan B",
+      "slug": "plan-b",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3423,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3424,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3425,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 277,
+      "name": "Silent Village",
+      "slug": "silent-village",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3429,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3430,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3431,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 278,
+      "name": "Fire and Water",
+      "slug": "fire-and-water",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3432,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3433,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 279,
+      "name": "From The Sky",
+      "slug": "from-the-sky",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3435,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3436,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 281,
+      "name": "Cult Business",
+      "slug": "cult-business",
+      "type": "main",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1350,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3442,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3443,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 282,
+      "name": "Bad Idea",
+      "slug": "bad-idea",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3449,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3450,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3451,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 254,
+      "name": "Memory Leak",
+      "slug": "memory-leak",
+      "type": "main",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3452,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3453,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3454,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3455,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3456,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 284,
+      "name": "Hustling The Hustler",
+      "slug": "hustling-the-hustler",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3465,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3466,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 285,
+      "name": "Sanctioned Exploitation",
+      "slug": "sanctioned-exploitation",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3469,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3470,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3472,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3473,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 286,
+      "name": "Buried On Paper",
+      "slug": "buried-on-paper",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3474,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3475,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 287,
+      "name": "Madnight Sapphire",
+      "slug": "madnight-sapphire",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3478,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3479,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 288,
+      "name": "Unstable Meeting",
+      "slug": "unstable-meeting",
+      "type": "contract",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3480,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 289,
+      "name": "Problem Solver",
+      "slug": "problem-solver",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2897,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 290,
+      "name": "Escort II",
+      "slug": "escort-ii",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3482,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 293,
+      "name": "Combat Sweep",
+      "slug": "combat-sweep",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 294,
+      "name": "Cache Report",
+      "slug": "cache-report",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 296,
+      "name": "Moonlighting II",
+      "slug": "moonlighting-ii",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 297,
+      "name": "Cache Report IX",
+      "slug": "cache-report-ix",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Blue Lagoon",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 298,
+      "name": "Mercenary Delivery Service III",
+      "slug": "mercenary-delivery-sergice-iii",
+      "type": "ltc",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 300,
+      "name": "No Casualties",
+      "slug": "no-casualties",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3484,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3485,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 301,
+      "name": "Freedom Fighter Hunt",
+      "slug": "freedom-fighter-hunt",
+      "type": "ltc",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 302,
+      "name": "Mercenary Delivery Service II",
+      "slug": "mercenary-delivery-sergice-ii",
+      "type": "ltc",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 304,
+      "name": "Cryptic Signals III",
+      "slug": "cryptic-signals-iii",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 305,
+      "name": "Like A Boss - Firebrand's AKS-74u",
+      "slug": "like-a-boss-firebrands-aks-74u",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3043,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3486,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3487,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 306,
+      "name": "Repossession",
+      "slug": "repossesion",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3488,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3489,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 307,
+      "name": "Combat Sweep III",
+      "slug": "combat-sweep-iii",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Fort Narith",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 309,
+      "name": "Cryptic Signal VII",
+      "slug": "cryptic-signal-vii",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Ban Pa",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 310,
+      "name": "The Ban Pa Horror",
+      "slug": "the-ban-pa-horror",
+      "type": "side",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1334,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3490,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 311
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 311
+    },
+    {
+      "id": 311,
+      "name": "The Call of Phi Pa Mum",
+      "slug": "the-call-of-phi-pa-mum",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1334,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": {
+        "task_2_id": 310
+      },
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": 310
+    },
+    {
+      "id": 312,
+      "name": "Like A Boss - Viper's 1911 C",
+      "slug": "like-a-boss-vipers-1911-c",
+      "type": "side",
+      "vendor": "Vulture",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3491,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3492,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3494,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3495,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3496,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 313,
+      "name": "Like A Boss - Yen's M700",
+      "slug": "like-a-boss-yens-m700",
+      "type": "side",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3497,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3498,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 314,
+      "name": "Big Fish",
+      "slug": "big-fish",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 1517,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 1543,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3501,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3502,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Midnight Sapphire",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 315,
+      "name": "A Voice From The Stars",
+      "slug": "a-voice-from-the-stars",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3504,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3505,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3506,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3508,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3509,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 5577,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "YBL-1",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 316,
+      "name": "Trifle",
+      "slug": "trifle",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3510,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3511,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 317,
+      "name": "Repossession IX",
+      "slug": "repossession-ix",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3512,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3513,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 318,
+      "name": "Mysterious Justice IX",
+      "slug": "mysterious-justice-ix",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "Tiger Bay",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 321,
+      "name": "Nicked Shipment",
+      "slug": "nicked-shipment",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2074,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2075,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2076,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3514,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 322,
+      "name": "Not On My Watch",
+      "slug": "not-on-my-watch",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 323,
+      "name": "Combat Sweep IV",
+      "slug": "combat-sweep-iv",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 324,
+      "name": "Mysterious Justice II",
+      "slug": "mysterious-justice-ii",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 325,
+      "name": "Repossession III",
+      "slug": "repossession-iii",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 326,
+      "name": "Cache Report IV",
+      "slug": "cache-report-iv",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 327,
+      "name": "No Bullshit II",
+      "slug": "no-bullshit-ii",
+      "type": "ltc",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 328,
+      "name": "Mysterious Justice",
+      "slug": "mysterious-justice",
+      "type": "contract",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "Tiger Bay",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 329,
+      "name": "Cryptic Signals VI",
+      "slug": "cryptic-signals-vi",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 330,
+      "name": "Breadcrumbs",
+      "slug": "breadcrumbs",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3520,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3521,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3522,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 331,
+      "name": "Cutbacks",
+      "slug": "cutbacks",
+      "type": "ltc",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 2898,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Pha Lang Airfield",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 332,
+      "name": "Mr. Nice Guy",
+      "slug": "mr-nice-guy",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 333,
+      "name": "Like A Boss - Buran's AK-74N",
+      "slug": "like-a-boss-burans-ak-74n",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3523,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": 3524,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3525,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Fort Narith",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 334,
+      "name": "Like A Boss - Kaptei's Glock 17",
+      "slug": "like-a-boss-kapteis-glock-17",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3526,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3527,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3528,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Sawmill",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 335,
+      "name": "Like A Boss - Colonel's Type 51",
+      "slug": "like-a-boss-colonels-type-51",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 504,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2322,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2468,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 2928,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3529,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3530,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Tiger Bay",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 336,
+      "name": "Like A Boss - Grin's 1911 C",
+      "slug": "like-a-boss-grins-1911-c",
+      "type": "side",
+      "vendor": "Vulture",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3305,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3344,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4062,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 337,
+      "name": "Like A Boss - Broker's M9A1",
+      "slug": "like-a-boss-brokers-m9a1",
+      "type": "side",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3215,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4063,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4064,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4065,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4068,
+          "object_item_relation": [
+            {
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "location": "Hunters Paradise",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": true,
+      "choice_related": null
+    },
+    {
+      "id": 338,
+      "name": "Like A Boss - Naga's Type 51",
+      "slug": "like-a-boss-nagas-type-51",
+      "type": "side",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3024,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3727,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4069,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 339,
+      "name": "Letters From Lamang",
+      "slug": "letters-from-lamang",
+      "type": "side",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3291,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4263,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Blue Lagoon",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 340,
+      "name": "The last broadcast",
+      "slug": "the-last-broadcast",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [
+        {
+          "id": 3025,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 3156,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 4617,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 5236,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        },
+        {
+          "id": 5490,
+          "object_item_relation": [
+            {
+              "count": 0
+            }
+          ]
+        }
+      ],
+      "location": "Ban Pa",
+      "is_filler": false,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 343,
+      "name": "Repossession VII",
+      "slug": "repossession-vii",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 346,
+      "name": "Cache Report VII",
+      "slug": "cache-report-vii",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Tiger Bay",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 347,
+      "name": "Cryptic Signals IX",
+      "slug": "cryptic-signals-ix",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Tiger Bay",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 299,
+      "name": "Combat Sweep VIII",
+      "slug": "combat-sweep-viii",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Tiger Bay",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 348,
+      "name": "Cache Report VIII",
+      "slug": "cache-report-viii",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Blue Lagoon",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 349,
+      "name": "Combat Sweep IX",
+      "slug": "combat-sweep-ix",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Blue Lagoon",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 350,
+      "name": "Cryptic Signal II",
+      "slug": "cryptic-signal-ii",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Blue Lagoon",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 351,
+      "name": "Repossession VIII",
+      "slug": "repossession-viii",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "Blue Lagoon",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 352,
+      "name": "Cache Report VI",
+      "slug": "cache-report-vi",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Ban Pa",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 353,
+      "name": "Combat Sweep VII",
+      "slug": "combat-sweep-vii",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Ban Pa",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 354,
+      "name": "Combat Sweep VI",
+      "slug": "combat-sweep-vi",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 355,
+      "name": "Ordnance Delivery",
+      "slug": "ordnance-delivery",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 356,
+      "name": "Repossession VI",
+      "slug": "repossession-vi",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 357,
+      "name": "Departure",
+      "slug": "departure",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 358,
+      "name": "Restructuring",
+      "slug": "restructuring",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 359,
+      "name": "Cryptic Signals V",
+      "slug": "cryptic-signals-v",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 360,
+      "name": "Escort",
+      "slug": "escort",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Hunters Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 361,
+      "name": "Cache Report V",
+      "slug": "cache-report-v",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 362,
+      "name": "Combat Sweep V",
+      "slug": "combat-sweep-v",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 363,
+      "name": "Cryptic Signals VIII",
+      "slug": "cryptic-signals-viii",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 364,
+      "name": "Repossession IV",
+      "slug": "repossession-iv",
+      "type": "contract",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 365,
+      "name": "Moonlighting III",
+      "slug": "moonlighting-iii",
+      "type": "ltc",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 366,
+      "name": "Emergency Response",
+      "slug": "emergency-response",
+      "type": "side",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Starter Town",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 367,
+      "name": "A Walk in the Park",
+      "slug": "a-walk-in-the-park",
+      "type": "main",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Starter Town",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 369,
+      "name": "Lab Assistant III",
+      "slug": "lab-assistant-iii",
+      "type": "ltc",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Hunter's Paradise",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 370,
+      "name": "Mysterious Justice VIII",
+      "slug": "mysterious-justice-viii",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "Fort Narith",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 371,
+      "name": "Mysterious Justice VI",
+      "slug": "mysterious-sustice-vi",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "YBL-1",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 374,
+      "name": "Mysterious Justice VII",
+      "slug": "mysterious-justice-vii",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "Sawmill",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 375,
+      "name": "Lab Assistant II",
+      "slug": "lab-assistant-ii",
+      "type": "ltc",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Tiger Bay",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 376,
+      "name": "Friendly Conveyance",
+      "slug": "friendly-conveyance",
+      "type": "ltc",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.2,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 377,
+      "name": "No Bullshit",
+      "slug": "no-bulshit",
+      "type": "ltc",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 378,
+      "name": "Cutting Ties",
+      "slug": "cutting-ties",
+      "type": "ltc",
+      "vendor": "Turncoat",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 380,
+      "name": "Mysterious Justice V",
+      "slug": "mysterious-justice-v",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "Midnight Sapphire",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 381,
+      "name": "Mysterious Justice IV",
+      "slug": "mysterious-justice-iv",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "Pha Lang Airfield",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 383,
+      "name": "Sunken Hope",
+      "slug": "sunken-hope",
+      "type": "ltc",
+      "vendor": "Artisan",
+      "faction": null,
+      "markers": [],
+      "location": "Blue Lagoon",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 384,
+      "name": "Ink Saver",
+      "slug": "ink-saver",
+      "type": "ltc",
+      "vendor": "Banshee",
+      "faction": null,
+      "markers": [],
+      "location": "Ban Pa",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 387,
+      "name": "Cryptic Signals IV",
+      "slug": "cryptic-signals-iv",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Fort Narith",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 388,
+      "name": "Cache Report II",
+      "slug": "cache-report-ii",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Fort Narith",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 389,
+      "name": "Schadenfreure",
+      "slug": "schadenfreure",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Sawmill",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 390,
+      "name": "Cryptic Signals",
+      "slug": "cryptic-signals",
+      "type": "contract",
+      "vendor": "LabRat",
+      "faction": null,
+      "markers": [],
+      "location": "Sawmill",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 392,
+      "name": "Cache Report III",
+      "slug": "cache-report-iii",
+      "type": "contract",
+      "vendor": "Gunny",
+      "faction": null,
+      "markers": [],
+      "location": "Sawmill",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    },
+    {
+      "id": 393,
+      "name": "Combat Sweep II",
+      "slug": "combat-sweep-ii",
+      "type": "contract",
+      "vendor": "Handshake",
+      "faction": null,
+      "markers": [],
+      "location": "Sawmill",
+      "is_filler": true,
+      "updated_to": 0.4,
+      "tasks_choice_connection": null,
+      "active": false,
+      "completed": false,
+      "isKeyRequired": false,
+      "choice_related": null
+    }
+  ],
+  "totalTasks": 259,
+  "pageLocal": {
+    "heading": "Tasks",
+    "h1": "Full Task List & Tracker"
+  }
+}

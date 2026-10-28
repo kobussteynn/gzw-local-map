@@ -1,0 +1,993 @@
+{
+  "markers": {
+    "3": {
+      "markersArray": [
+        {
+          "lat": 2017.16648224824,
+          "lng": 7683.8353225798,
+          "id": 473,
+          "name": "YBL Strg Door",
+          "floor": -1,
+          "level": null,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "locked",
+          "nav_item": 3,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 1693.107,
+          "lng": 1343.426,
+          "id": 191,
+          "name": "YBL Main Door",
+          "floor": null,
+          "level": null,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "locked",
+          "nav_item": 3,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 1516.71521520767,
+          "lng": 5526.12488027772,
+          "id": 369,
+          "name": "YBL Ofc2 Door",
+          "floor": -2,
+          "level": null,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "locked",
+          "nav_item": 3,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2077.229122494,
+          "lng": 6144.95815364009,
+          "id": 466,
+          "name": "YBL Gen Door",
+          "floor": -2,
+          "level": null,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "locked",
+          "nav_item": 3,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2135.49745927023,
+          "lng": 1385.97024391692,
+          "id": 192,
+          "name": "YBL Bed Door",
+          "floor": -1,
+          "level": null,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "locked",
+          "nav_item": 3,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 1778.30105067078,
+          "lng": 6146.0747622231,
+          "id": 467,
+          "name": "YBL Ofc1 Door",
+          "floor": -1,
+          "level": null,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "locked",
+          "nav_item": 3,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    },
+    "18": {
+      "markersArray": [
+        {
+          "lat": 3049.688,
+          "lng": 1651.023,
+          "id": 1678,
+          "name": "YBL-1 Generator Room key Spawn",
+          "floor": null,
+          "level": null,
+          "tooltip": "",
+          "type": "marker",
+          "sub_type": null,
+          "icon": "key",
+          "nav_item": 18,
+          "faction": null,
+          "poi": {
+            "id": null,
+            "name": null
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": null,
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 1402.4605491425,
+          "lng": 5512.73317807631,
+          "id": 1223,
+          "name": "YBL-1 Maintenance Door Key Spawn",
+          "floor": -2,
+          "level": null,
+          "tooltip": "",
+          "type": "marker",
+          "sub_type": null,
+          "icon": "key",
+          "nav_item": 18,
+          "faction": null,
+          "poi": {
+            "id": null,
+            "name": null
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": null,
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": true,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2231.003,
+          "lng": 5451.277,
+          "id": 1677,
+          "name": "YBL-1 Office 02 key Spawn",
+          "floor": null,
+          "level": null,
+          "tooltip": "",
+          "type": "marker",
+          "sub_type": null,
+          "icon": "key",
+          "nav_item": 18,
+          "faction": null,
+          "poi": {
+            "id": null,
+            "name": null
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": null,
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2281.483,
+          "lng": 5501.766,
+          "id": 1679,
+          "name": "YBL-1 Office 02 key Spawn",
+          "floor": null,
+          "level": null,
+          "tooltip": "",
+          "type": "marker",
+          "sub_type": null,
+          "icon": "key",
+          "nav_item": 18,
+          "faction": null,
+          "poi": {
+            "id": null,
+            "name": null
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": null,
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2429.8730825869,
+          "lng": 5372.20479105928,
+          "id": 1424,
+          "name": "YBL-1 Office 02 key Spawn",
+          "floor": -2,
+          "level": null,
+          "tooltip": "",
+          "type": "marker",
+          "sub_type": null,
+          "icon": "key",
+          "nav_item": 18,
+          "faction": null,
+          "poi": {
+            "id": null,
+            "name": null
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": null,
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    },
+    "20": {
+      "markersArray": [
+        {
+          "lat": 1893.881,
+          "lng": 8085.125,
+          "id": 1671,
+          "name": "Ammo Box",
+          "floor": -1,
+          "level": "0",
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "ammo",
+          "nav_item": 20,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": true,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2085.79659962429,
+          "lng": 1339.14760025047,
+          "id": 571,
+          "name": "Ammo Box",
+          "floor": -1,
+          "level": "0",
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "ammo",
+          "nav_item": 20,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": true,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    },
+    "25": {
+      "markersArray": [
+        {
+          "lat": 2115.815,
+          "lng": 1469.688,
+          "id": 573,
+          "name": "Military Gear Crate",
+          "floor": -1,
+          "level": 3,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "militaryGearCrate",
+          "nav_item": 25,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": 3
+          },
+          "visible": false,
+          "is_locked": true,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2067.049,
+          "lng": 7756.718,
+          "id": 567,
+          "name": "Military Gear Crate",
+          "floor": -1,
+          "level": 3,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "militaryGearCrate",
+          "nav_item": 25,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": 3
+          },
+          "visible": false,
+          "is_locked": true,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    },
+    "26": {
+      "markersArray": [
+        {
+          "lat": 2517.636,
+          "lng": 1392.981,
+          "id": 1672,
+          "name": "Food Storage",
+          "floor": -1,
+          "level": 2,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "foodStorage",
+          "nav_item": 26,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": 2
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    },
+    "28": {
+      "markersArray": [
+        {
+          "lat": 1481.216,
+          "lng": 5547.779,
+          "id": 568,
+          "name": "Medical Bag",
+          "floor": -2,
+          "level": 2,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "medicalBag",
+          "nav_item": 28,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": 2
+          },
+          "visible": false,
+          "is_locked": true,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    },
+    "40": {
+      "markersArray": [
+        {
+          "lat": 2992.38,
+          "lng": 1651.11,
+          "id": 2532,
+          "name": "LLA IT Report",
+          "floor": -1,
+          "level": "0",
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "intel",
+          "nav_item": 40,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": null,
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    },
+    "48": {
+      "markersArray": [
+        {
+          "lat": 1533.02,
+          "lng": 5978.66,
+          "id": 2335,
+          "name": "Padlock",
+          "floor": -1,
+          "level": null,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "coded",
+          "nav_item": 48,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": null
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    },
+    "52": {
+      "markersArray": [
+        {
+          "lat": 1887.875,
+          "lng": 7691.03,
+          "id": 566,
+          "name": "Firearms Box",
+          "floor": -1,
+          "level": 2,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "militaryBox",
+          "nav_item": 52,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": 2
+          },
+          "visible": false,
+          "is_locked": true,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2904.367,
+          "lng": 7811.625,
+          "id": 576,
+          "name": "Firearms Box",
+          "floor": -1,
+          "level": 2,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "militaryBox",
+          "nav_item": 52,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": 2
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 1997.95228598265,
+          "lng": 1357.53755703999,
+          "id": 570,
+          "name": "Firearms Box",
+          "floor": -1,
+          "level": 2,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "militaryBox",
+          "nav_item": 52,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": 2
+          },
+          "visible": false,
+          "is_locked": true,
+          "minZoom": 0,
+          "maxZoom": 100
+        },
+        {
+          "lat": 2064.142,
+          "lng": 2187.006,
+          "id": 575,
+          "name": "Firearms Box",
+          "floor": -1,
+          "level": 2,
+          "tooltip": null,
+          "type": "marker",
+          "sub_type": null,
+          "icon": "militaryBox",
+          "nav_item": 52,
+          "faction": null,
+          "poi": {
+            "id": 6,
+            "name": "YBL-1"
+          },
+          "author": "ba159353-471d-471f-be0d-2efa9f299dce",
+          "is_approved": false,
+          "is_published": true,
+          "key": [],
+          "_poi": {
+            "name": "YBL-1"
+          },
+          "entity": {
+            "tier": 2
+          },
+          "visible": false,
+          "is_locked": false,
+          "minZoom": 0,
+          "maxZoom": 100
+        }
+      ],
+      "visible": false,
+      "minZoom": 0,
+      "maxZoom": 100
+    }
+  },
+  "taskMarkers": {
+    "task-56": {
+      "markersArray": [
+        {
+          "task_id": 56,
+          "lat": 1468.63112881336,
+          "lng": 5357.33972536682,
+          "taskData": {
+            "name": "The Negotiator",
+            "vendor": "Gunny"
+          },
+          "step": 3,
+          "is_locked": true,
+          "id": 1435,
+          "poi": 6,
+          "icon": "target",
+          "name": "Negotiator",
+          "type": "marker",
+          "floor": -2,
+          "faction": null,
+          "tooltip": null,
+          "nav_item": 36,
+          "sub_type": null,
+          "is_approved": false,
+          "task_marker": [
+            {
+              "step": 3,
+              "task_id": 56,
+              "marker_id": 1435
+            }
+          ],
+          "is_published": true
+        },
+        {
+          "task_id": 56,
+          "lat": 3502.81640678367,
+          "lng": 5900.44351309923,
+          "taskData": {
+            "name": "The Negotiator",
+            "vendor": "Gunny"
+          },
+          "step": 2,
+          "is_locked": false,
+          "id": 1641,
+          "poi": 6,
+          "icon": "target",
+          "name": "Underground Passage",
+          "type": "marker",
+          "floor": -2,
+          "faction": null,
+          "tooltip": null,
+          "nav_item": 36,
+          "sub_type": null,
+          "is_approved": false,
+          "task_marker": [
+            {
+              "step": 2,
+              "task_id": 56,
+              "marker_id": 1641
+            }
+          ],
+          "is_published": true
+        }
+      ],
+      "visible": false
+    },
+    "task-187": {
+      "markersArray": [
+        {
+          "task_id": 187,
+          "lat": 2260.83889654658,
+          "lng": 5455.94416100465,
+          "taskData": {
+            "name": "Hazardous Treasures",
+            "vendor": "Handshake"
+          },
+          "step": 6,
+          "is_locked": false,
+          "id": 1504,
+          "poi": 6,
+          "icon": "target",
+          "name": "Metal Container",
+          "type": "marker",
+          "floor": null,
+          "faction": null,
+          "tooltip": null,
+          "nav_item": 36,
+          "sub_type": null,
+          "is_approved": false,
+          "task_marker": [
+            {
+              "step": 6,
+              "task_id": 187,
+              "marker_id": 1504
+            }
+          ],
+          "is_published": true
+        }
+      ],
+      "visible": false
+    },
+    "task-75": {
+      "markersArray": [
+        {
+          "task_id": 75,
+          "lat": 2912.95173539478,
+          "lng": 6248.64659558768,
+          "taskData": {
+            "name": "Mystery Machines",
+            "vendor": "LabRat"
+          },
+          "step": 2,
+          "is_locked": false,
+          "id": 1534,
+          "poi": null,
+          "icon": "target-2",
+          "name": "Water Filtration Unit",
+          "type": "marker",
+          "floor": -2,
+          "faction": null,
+          "tooltip": "",
+          "nav_item": 36,
+          "sub_type": null,
+          "is_approved": false,
+          "task_marker": [
+            {
+              "step": 2,
+              "task_id": 75,
+              "marker_id": 1534
+            }
+          ],
+          "is_published": true
+        },
+        {
+          "task_id": 75,
+          "lat": 1949.50524161195,
+          "lng": 5785.91063907459,
+          "taskData": {
+            "name": "Mystery Machines",
+            "vendor": "LabRat"
+          },
+          "step": 3,
+          "is_locked": false,
+          "id": 1535,
+          "poi": null,
+          "icon": "target",
+          "name": "Computer",
+          "type": "marker",
+          "floor": -2,
+          "faction": null,
+          "tooltip": "",
+          "nav_item": 36,
+          "sub_type": null,
+          "is_approved": false,
+          "task_marker": [
+            {
+              "step": 3,
+              "task_id": 75,
+              "marker_id": 1535
+            }
+          ],
+          "is_published": true
+        }
+      ],
+      "visible": false
+    },
+    "task-76": {
+      "markersArray": [
+        {
+          "task_id": 76,
+          "lat": 2223.48249303114,
+          "lng": 7984.69613723906,
+          "taskData": {
+            "name": "Duty to the Country",
+            "vendor": "LabRat"
+          },
+          "step": 1,
+          "is_locked": true,
+          "id": 1349,
+          "poi": 6,
+          "icon": "target",
+          "name": "Long Vong",
+          "type": "marker",
+          "floor": -1,
+          "faction": null,
+          "tooltip": null,
+          "nav_item": 36,
+          "sub_type": null,
+          "is_approved": false,
+          "task_marker": [
+            {
+              "step": 1,
+              "task_id": 76,
+              "marker_id": 1349
+            }
+          ],
+          "is_published": true
+        }
+      ],
+      "visible": false
+    }
+  }
+}

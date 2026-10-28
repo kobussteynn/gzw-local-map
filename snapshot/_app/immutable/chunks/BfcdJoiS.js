@@ -1,0 +1,1 @@
+import{t as e}from"./C4Sap08x.js";var t=e(`1g4p39w/fetchMapMarkers`),n=e(`1g4p39w/getClosestMarkers`);e(`1g4p39w/getMarkers`),e(`1g4p39w/getTaskMarkers`);export{n,t};

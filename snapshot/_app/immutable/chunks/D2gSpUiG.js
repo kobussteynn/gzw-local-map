@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./C4Sap08x.js";n(`qssvld/fetchMarkerStats`),n(`qssvld/fetchMarkerViewCount`);var r=n(`qssvld/fetchTaskGuides`),i=t(`qssvld/markImageAsMain`),a=t(`qssvld/removeMarkerImage`);e(`qssvld/setMarkerApprove`),e(`qssvld/setMarkerDisApprove`);var o=t(`qssvld/unpublishMarkerImage`),s=e(`qssvld/uploadMarkerImages`);export{s as a,o as i,i as n,a as r,r as t};
