@@ -14,11 +14,11 @@ Open **http://localhost:4173/maps/lamang#m=18.34/7789.91/6405.92**. This uses th
 
 Alternatively, run `./start.ps1` or `npm start`. Keep that terminal running. Stop with Ctrl+C. To choose another port: `python server.py --port 8080`.
 
-### Desktop shortcut / Opera GX
+### Desktop shortcut / browser choice
 
-Double-click **GZW Tac Map** on the Windows desktop. `open-map.ps1` starts the local server in the background if needed, waits until it is ready, and opens the map in Opera GX. No terminal needs to stay open. The launcher reuses an existing healthy server. Errors appear in a small message box, with background server logs in `cache/desktop-server-output.log` and `cache/desktop-server-error.log`.
+Double-click **GZW Tac Map** on the Windows desktop. `open-map.ps1` starts the local server in the background if needed, waits until it is ready, and opens the map in your chosen browser. On the first launch, a dialog asks you to choose the Windows default browser or an installed browser, including Opera GX, Opera, Chrome, Edge, Firefox, Brave or Vivaldi. The choice is remembered locally in `cache/browser-preference.json` (excluded from Git). This does not change the Windows default browser. Use the **GZW Tac Map - Choose Browser** desktop shortcut or run `powershell -NoProfile -ExecutionPolicy Bypass -File open-map.ps1 -ChooseBrowser` to change it later. Cancelling the dialog does not start the map. No terminal needs to stay open. The launcher reuses an existing healthy server. Errors appear in a small message box, with background server logs in `cache/desktop-server-output.log` and `cache/desktop-server-error.log`.
 
-To recreate the shortcut after moving the project, run `powershell -NoProfile -ExecutionPolicy Bypass -File tools/install-desktop-shortcut.ps1`. This uses the Windows Desktop location, including redirected OneDrive desktops. `powershell -NoProfile -ExecutionPolicy Bypass -File open-map.ps1 -CheckOnly` checks server readiness and Opera GX detection without opening a browser.
+To recreate the shortcut after moving the project, run `powershell -NoProfile -ExecutionPolicy Bypass -File tools/install-desktop-shortcut.ps1`. This uses the Windows Desktop location, including redirected OneDrive desktops. `powershell -NoProfile -ExecutionPolicy Bypass -File open-map.ps1 -CheckOnly` checks server readiness and the saved browser preference without opening a browser or showing the picker.
 
 ## What is included
 

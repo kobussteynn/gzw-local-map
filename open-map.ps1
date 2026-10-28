@@ -1,4 +1,4 @@
-param([switch]$CheckOnly)
+param([switch]$CheckOnly, [switch]$ChooseBrowser)
 
 $ErrorActionPreference = 'Stop'
 $mapUrl = 'http://localhost:4173/maps/lamang'
@@ -12,13 +12,15 @@ function Test-MapServer {
 }
 
 try {
-    $operaPaths = @(
-        "$env:LOCALAPPDATA\Programs\Opera GX\opera.exe",
-        "$env:ProgramFiles\Opera GX\opera.exe",
-        "${env:ProgramFiles(x86)}\Opera GX\opera.exe"
-    )
-    $operaPath = $operaPaths | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
-    if (-not $operaPath) { throw 'Opera GX was not found. Install Opera GX, then try this shortcut again.' }
+    . (Join-Path $PSScriptRoot 'tools\browser-selection.ps1')
+    $settingsPath = Join-Path $PSScriptRoot 'cache\browser-preference.json'
+    $browser = Read-GzwBrowserPreference $settingsPath
+    if (-not $CheckOnly -and ($ChooseBrowser -or -not $browser)) {
+        $browser = Show-GzwBrowserPicker -Options @(Get-GzwBrowserOptions) -Current $browser
+        if (-not $browser) { exit 0 }
+        New-Item -ItemType Directory -Path (Split-Path -Parent $settingsPath) -Force | Out-Null
+        $browser | ConvertTo-Json | Set-Content -LiteralPath $settingsPath -Encoding UTF8
+    }
 
     $serverMutex = New-Object System.Threading.Mutex($false, 'Local\GZWPersonalMapLauncher')
     $lockTaken = $false
@@ -50,9 +52,11 @@ try {
 
     if ($CheckOnly) {
         Write-Output "Map server ready: $mapUrl"
-        Write-Output "Browser: $operaPath"
+        if ($browser) { Write-Output "Browser: $($browser.Name) $($browser.Path)" }
+        else { Write-Output 'Browser: first launch will ask which browser to use.' }
     } else {
-        Start-Process -FilePath $operaPath -ArgumentList $mapUrl | Out-Null
+        if ($browser.Path) { Start-Process -FilePath $browser.Path -ArgumentList $mapUrl | Out-Null }
+        else { Start-Process $mapUrl | Out-Null }
     }
 } catch {
     if ($CheckOnly) { throw }

@@ -25,6 +25,17 @@ $shortcut.Arguments = '-NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -F
 $shortcut.WorkingDirectory = $projectPath
 $shortcut.IconLocation = $iconPath + ',0'
 $shortcut.WindowStyle = 7
-$shortcut.Description = 'Open your personal GZW Tac Map in Opera GX. Starts the local server automatically.'
+$shortcut.Description = 'Open your personal GZW Tac Map in your chosen browser. Starts the local server automatically.'
 $shortcut.Save()
 Write-Output "Created desktop shortcut: $shortcutPath"
+
+$browserShortcutPath = Join-Path $desktopPath 'GZW Tac Map - Choose Browser.lnk'
+$browserShortcut = $shell.CreateShortcut($browserShortcutPath)
+$browserShortcut.TargetPath = $shortcut.TargetPath
+$browserShortcut.Arguments = $shortcut.Arguments + ' -ChooseBrowser'
+$browserShortcut.WorkingDirectory = $projectPath
+$browserShortcut.IconLocation = $iconPath + ',0'
+$browserShortcut.WindowStyle = 7
+$browserShortcut.Description = 'Change the browser used by GZW Tac Map.'
+$browserShortcut.Save()
+Write-Output "Created browser settings shortcut: $browserShortcutPath"
